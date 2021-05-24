@@ -24,13 +24,15 @@ function App() {
   return (
     <div className="App">
       <header>
+        <h1>B's Coffee Gear</h1>
+      <button className='navbutton' onClick={() => navigateTo(PAGE_PRODUCTS)}>
+         Shop
+        </button>
         <button className='navbutton' onClick={() => navigateTo(PAGE_CART)}>
-          Go to Cart ({getCartTotal()})
+          Cart ({getCartTotal()})
         </button>
 
-        <button className='navbutton' onClick={() => navigateTo(PAGE_PRODUCTS)}>
-          View Products
-        </button>
+        
       </header>
       {page === PAGE_PRODUCTS && (
         <Products cart={cart} setCart={setCart} />

@@ -54,7 +54,7 @@ export default function Cart({ cart, setCart }) {
         ))}
       </div>
 
-      <div>Total Cost: ${getTotalSum()}</div>
+      <div>Total Cost: £{getTotalSum()}</div>
     </>
   );
 }

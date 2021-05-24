@@ -24,11 +24,11 @@ function App() {
   return (
     <div className="App">
       <header>
-        <button onClick={() => navigateTo(PAGE_CART)}>
+        <button className='navbutton' onClick={() => navigateTo(PAGE_CART)}>
           Go to Cart ({getCartTotal()})
         </button>
 
-        <button onClick={() => navigateTo(PAGE_PRODUCTS)}>
+        <button className='navbutton' onClick={() => navigateTo(PAGE_PRODUCTS)}>
           View Products
         </button>
       </header>

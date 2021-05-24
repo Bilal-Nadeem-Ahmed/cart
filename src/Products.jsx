@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 
-const UTILITY = 'utility';
+
 const COFFEE = 'Coffee Beans';
 const GRINDER = 'Coffee Grinders';
 
